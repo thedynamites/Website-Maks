@@ -1,0 +1,1 @@
+echo $row["productid"]. " - " . $row["productname"]. " - " . $row["descript"]. " - " . $row["price"]. "<br>";
