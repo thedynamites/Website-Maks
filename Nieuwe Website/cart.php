@@ -5,14 +5,14 @@ include 'config/database.php';
 // include objects
 include_once "objects/product.php";
 include_once "objects/product_image.php";
-include_once "objects/product2.php";
-include_once "objects/product_image2.php";
-include_once "objects/product3.php";
-include_once "objects/product_image3.php";
-include_once "objects/product4.php";
-include_once "objects/product_image4.php";
-include_once "objects/product5.php";
-include_once "objects/product_image5.php";
+include_once "objects/knal2.php";
+include_once "objects/knal_image2.php";
+include_once "objects/sier3.php";
+include_once "objects/sier_image3.php";
+include_once "objects/kinder4.php";
+include_once "objects/kinder_image4.php";
+include_once "objects/veilig5.php";
+include_once "objects/veilig_image5.php";
 include_once "objects/cart_item.php";
  
 // get database connection

@@ -18,14 +18,13 @@ while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
                     echo "<img src='uploads/images/{$row_product_image['name']}' class='w-100-pct' />";
                 echo "</div>";
             }
- 
             // product name
-            echo "<div class='product-name m-b-10px'>{$name}</div>";
-            echo "{$description}";
+            echo "<div style='color:green; font-style: italic; class='product-name m-b-10px'>{$name}</div>";
         echo "</a>";
 
         // product price and category name
             echo "<div class='m-b-10px'>";
+                echo "<div class='product-name m-b-10px'>{$description}</div>";
                 echo "&euro;" . number_format($price, 2, '.', ',');
             echo "</div>";
  

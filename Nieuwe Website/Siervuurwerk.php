@@ -3,8 +3,8 @@
 include 'config/database.php';
  
 // include objects
-include_once "objects/product3.php";
-include_once "objects/product_image3.php";
+include_once "objects/sier3.php";
+include_once "objects/sier_image3.php";
 include_once "objects/cart_item.php";
  
 // get database connection
@@ -40,7 +40,7 @@ $num = $stmt->rowCount();
 // if products retrieved were more than zero
 if($num>0){
     // needed for paging
-    $page_url="products.php?";
+    $page_url="Siervuurwerk.php?";
     $total_rows=$product->count();
  
     // show products

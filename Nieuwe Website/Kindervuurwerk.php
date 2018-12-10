@@ -3,8 +3,8 @@
 include 'config/database.php';
  
 // include objects
-include_once "objects/product4.php";
-include_once "objects/product_image4.php";
+include_once "objects/kinder4.php";
+include_once "objects/kinder_image4.php";
 include_once "objects/cart_item.php";
  
 // get database connection

@@ -5,21 +5,11 @@
         <!-- Pagina context -->
     <div class="container">
 
-      <!-- Pagina titel -->
-      <h1 class="mt-4 mb-3">Contact</h1>
-
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="home.php">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Contact</li>
-      </ol>
-
       <!-- Context rij -->
       <div class="row">
         <div class="col-lg-8 mb-4">
           <!-- Maks solutions logo -->
-          <img src="ms-logo.jpg" height="200" width="200" />
+          <img src="logo.png" height="200" width="200" />
         </div>
         <!-- Contact gegevens kolom -->
         <div class="col-lg-4 mb-4">

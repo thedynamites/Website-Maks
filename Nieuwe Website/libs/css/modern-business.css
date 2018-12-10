@@ -5,7 +5,6 @@
  */
 
 body {
-  background: url("libs/css/back.png");
   padding-top: 54px;
 }
 
@@ -48,7 +47,7 @@ body {
 
 .sidebar .nav-link {
   font-weight: 500;
-  color: #333;
+  color: green;
 }
 
 .navbar .form-control {
